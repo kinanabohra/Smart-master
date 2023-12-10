@@ -1,0 +1,179 @@
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2em;
+font-weight: bold;
+color: #fff;
+}
+
+.custom-nav-item:hover{
+background-color: #464866;
+
+border-radius: 17px;
+}
+
+.remove-vid-margin{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-parent{
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #565A76;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}
+
+.bottom-banner{
+    color: #fff;
+    padding: 10px;
+}
+
+.btn-teal {
+    background-color: #2E5A8A;
+    color: #fff; /* Text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a subtle hover effect */
+}
+
+.btn-teal:hover {
+    background-color: #1F5076; /* Slightly darker shade on hover */
+}
+
+.stripe{
+    background-image: linear-gradient(240deg, #2E9CCA,#9394A2);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(10deg);
+    z-index:-5;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 575px){
+    .my-content,.text banner{
+        display: none;
+    }
+    
+.vid-content{
+    top: 50%;
+    left: 45%;
+}
+
+.custom-nav .custom-nav-item a{
+    padding:10px 20px;
+    background-color: #25274D;
+}
+
+}
+
+.testimonials-section {
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to right, #464866, #29648A);
+}
+
+.testimonials .container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-header .title {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.2;
+}
+
+.testimonials {
+    padding: 40px 0;
+}
+
+.testimonials-item {
+    max-width: 260px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 35px;
+    border-radius: 30px;
+}
+
+.testimonials-item .info {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-item img {
+    max-width: 80px;
+    border-radius: 500%;
+    margin-right: 20px;
+    vertical-align:middle;
+}
+
+.testimonials-item .name {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: hsl(0, 0%, 40%);
+    line-height: 1.2;
+}
+
+.testimonials-item .job {
+    text-transform: capitalize;
+    color: hsl(0, 0%, 40%);
+}
+
+.testimonials-item p {
+    margin-top: 20px;
+    color: hsl(0, 0%, 40%);
+}
+
+.testimonials-item .rating {
+    margin-top: 15px;
+    font-size: 14px;
+    color: hsl(36, 88%, 66%);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    padding: 10px;
+    bottom: var(--swiper-pagination-bottom);
+    top: var(--swiper-pagination-top);
+    left: 0;
+    width: 100%;
+}
+
+.testimonials .swiper-pagination-bullet{
+    height: 12px;
+    width: 12px;
+    background-color: hsl(0, 0%, 100%);
+}

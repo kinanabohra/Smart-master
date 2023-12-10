@@ -1,0 +1,16 @@
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    }
+
+
+.box{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    margin-top: 30px;
+}
+
+
